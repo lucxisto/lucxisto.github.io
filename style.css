@@ -14,12 +14,20 @@ body{
     border: #000000 solid 2px;
     border-radius: 150px;
 }
-.skills, .projects {
-    margin: auto;
+div{
     width: 50%;
-    padding: 5px;
-    text-align: start;
+    margin: 15px;
+}
+.aboutme{
+    margin: auto;    
+}
+.container{
+    display: flex;
+    margin: auto;
+}
+div.projects ul{
+    list-style: none;
 }
 .skills{
-    width: 40%;   
+    text-align: start;
 }
