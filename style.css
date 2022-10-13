@@ -8,7 +8,7 @@ body{
     color: #C70701;
     text-align: center;
     -webkit-text-stroke-color: #ffffff;
-    
+    margin: auto;
 }
 h1{
     font-size: 50px;
