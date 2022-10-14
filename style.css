@@ -58,7 +58,7 @@ div.projects ul{
 div.skills ul{
     text-align: justify;
     background: var(--detail-color-2);
-    padding: 20px;
+    padding: 5px 30px;
     color: var(--text-color);
     border-radius: 6px;
 }
