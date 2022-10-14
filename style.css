@@ -4,10 +4,17 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #232525;
-    color: #2E003B;
+    --bg-color: #606060;
+    --text-color: #DFB728;
+    --text-border-color: #252525;
+    --detail-color-1: #BBC7CE;
+    --detail-color-2: #2E003B;
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
     text-align: center;
-    -webkit-text-stroke-color: #BBC7CE;
+    -webkit-text-stroke-color: var(--text-border-color);
     margin: auto;
     font-family: 'Roboto',  sans-serif;
 }
@@ -21,7 +28,7 @@ strong{
 #mypicture{
     width: 20%;
     margin-top: 30px;
-    border: #DFB728 double 10px;
+    border: var(--detail-color-1) double 10px;
     border-radius: 100%;
 }
 div{
@@ -29,9 +36,9 @@ div{
     margin: 15px;
 }
 .aboutme{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     margin: auto;
-    color: #FFFFFF;
+    color: var(--text-color);
     -webkit-text-stroke-width: 0px;   
 }
 .container{
@@ -49,9 +56,9 @@ div.projects ul{
 
 div.skills ul{
     text-align: justify;
-    background: #606060;
+    background: var(--detail-color-2);
     padding: 20px;
-    color: #2E003B;
+    color: var(--text-color);
     border-radius: 6px;
 }
 .hard{
@@ -67,15 +74,15 @@ ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #606060;
+    background: var(--detail-color-2);
     text-transform: uppercase;
-    color: #2E003B;
+    color: var(--text-color);
     margin-bottom: 5px;
     border-radius: 6px;
     transition: background 300ms;
 }
 ul li a:hover{
-    background: #8d6309;
+    background: var(--detail-color-1);
 }
 a{
     text-decoration: none;
