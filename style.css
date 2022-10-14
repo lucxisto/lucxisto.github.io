@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    --bg-color: #606060;
-    --text-color: #DFB728;
-    --text-border-color: #252525;
-    --detail-color-1: #BBC7CE;
-    --detail-color-2: #2E003B;
+    --bg-color: #252525;
+    --text-color: #2E003B;
+    --text-color-2: #BBC7CE;
+    --text-border-color: #959595;
+    --detail-color-1: #DFB728;
+    --detail-color-2: #BBC7CE;
 }
 body{
     background-color: var(--bg-color);
@@ -38,8 +39,8 @@ div{
 .aboutme{
     font-family: Verdana, Tahoma, sans-serif;
     margin: auto;
-    color: var(--text-color);
-    -webkit-text-stroke-width: 0px;   
+    color: var(--text-color-2);
+    -webkit-text-stroke-width: 0;   
 }
 .container{
     display: flex;
