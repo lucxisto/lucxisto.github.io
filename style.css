@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #013286;
-    color: #C70701;
+    background-color: #232525;
+    color: #2E003B;
     text-align: center;
-    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-stroke-color: #BBC7CE;
     margin: auto;
     font-family: 'Roboto',  sans-serif;
 }
@@ -15,17 +15,21 @@ h1{
     font-size: 50px;
     -webkit-text-stroke-width: 1px;
 }
+strong{
+    font-style: italic;
+}
 #mypicture{
     width: 20%;
     margin-top: 30px;
-    border: #FFFFFF double 10px;
+    border: #DFB728 double 10px;
     border-radius: 100%;
 }
 div{
-    width: 50%;
+    width: 60%;
     margin: 15px;
 }
 .aboutme{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
     color: #FFFFFF;
     -webkit-text-stroke-width: 0px;   
@@ -44,20 +48,28 @@ div.projects ul{
 }
 
 div.skills ul{
-    text-align: start;
-    background: #fdb927;
+    text-align: justify;
+    background: #606060;
     padding: 20px;
-    color: #C70701;
+    color: #2E003B;
     border-radius: 6px;
+}
+.hard{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.soft{
+    font-size: 1.5em;
+    font-weight: 500;
 }
 ul li a{
     height: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fdb927;
+    background: #606060;
     text-transform: uppercase;
-    color: #c70701;
+    color: #2E003B;
     margin-bottom: 5px;
     border-radius: 6px;
     transition: background 300ms;
