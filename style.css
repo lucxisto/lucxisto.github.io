@@ -47,20 +47,23 @@ div{
     margin: auto;
     border-radius: 10px;
 }
-div.container h2{
+.container h2{
     font-size: 35px;
     -webkit-text-stroke-width: 1px;
 }
-div.projects ul{
+.projects ul{
     list-style: none;
 }
 
-div.skills ul{
+.skills ul{
     text-align: justify;
     background: var(--detail-color-2);
-    padding: 5px 30px;
+    padding: 5px 15px;
     color: var(--text-color);
     border-radius: 6px;
+}
+.skills ul li{
+    list-style-position: inside;
 }
 .hard{
     font-size: 1.2em;
