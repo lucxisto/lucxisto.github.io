@@ -27,7 +27,7 @@ strong{
     font-style: italic;
 }
 #mypicture{
-    width: 20%;
+    width: 200px;
     margin-top: 30px;
     border: var(--detail-color-1) double 10px;
     border-radius: 100%;
@@ -94,7 +94,11 @@ a{
 }
 footer{
     background-color: var(--detail-color-2);
-    width: 50%;
-    border-radius: 30px;
+    width: 10%;
+    border-radius: 12px;
     margin: auto;
+    padding: 10px;
+}
+.icon{
+    width: 50px;
 }
