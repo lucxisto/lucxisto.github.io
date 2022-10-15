@@ -92,3 +92,9 @@ a{
     text-decoration: none;
   
 }
+footer{
+    background-color: var(--detail-color-2);
+    width: 50%;
+    border-radius: 30px;
+    margin: auto;
+}
