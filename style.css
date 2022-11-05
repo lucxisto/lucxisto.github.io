@@ -5,10 +5,10 @@
 }
 body{
     --bg-color: #252525;
-    --text-color: #2E003B;
+    --text-color: #181818;
     --text-color-2: #BBC7CE;
     --text-border-color: #959595;
-    --detail-color-1: #DFB728;
+    --detail-color-1: #fff;
     --detail-color-2: #BBC7CE;
 }
 body{
@@ -26,7 +26,7 @@ body{
 #picture-container{
     display: inline-block;
     width: fit-content;
-    padding: 10px;
+    padding: 5px;
     background-color: var(--text-color);
     border-radius: 100%;
     margin: 15px;
@@ -118,7 +118,4 @@ footer{
 }
 .icon{
     width: 50px;
-}
-li:nth-child(odd){
-    text-decoration: line-through;
 }
